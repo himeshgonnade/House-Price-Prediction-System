@@ -20,7 +20,7 @@ from sklearn import metrics
 
 """
 # Importing the california House Price Dataset"""
-
+house_price_dataset=sklearn.datasets.fetch_california_housing()
 print(house_price_dataset)
 
 # Loading the dataset to a Pandas DataFrame
